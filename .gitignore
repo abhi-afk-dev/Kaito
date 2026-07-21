@@ -1,0 +1,44 @@
+# =========================
+# Backend (Python/Django)
+# =========================
+# Virtual Environment
+backend/env/
+
+# Database & Cache
+backend/db.sqlite3
+backend/__pycache__/
+backend/chat/__pycache__/
+*.pyc
+
+# Security, Tokens & Credentials (CRITICAL)
+backend/.env
+backend/credentials.json
+backend/mcp_tokens/
+env
+.env
+# Temporary / Log files
+backend/tmp/
+backend/chat/tmp/
+
+# If you don't need npm in the backend, ignore these
+backend/node_modules/
+backend/package-lock.json
+
+# =========================
+# Frontend (React Native/Expo)
+# =========================
+# Dependencies & Build files
+frontend/node_modules/
+frontend/.expo/
+
+# Build and crash logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/expo-debug.log*
+
+# =========================
+# General & OS Files
+# =========================
+.DS_Store
+.vscode/
